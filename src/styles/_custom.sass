@@ -1,0 +1,164 @@
+.titulo-principal__numero 
+  background-color: $color-acento-botones
+.barra-avance__boton--regresar i
+  color: $color-sistema-texto
+.boton.barra-avance__boton--regresar:active span,  .boton.barra-avance__boton--regresar:focus span,  .boton.barra-avance__boton--regresar:hover span
+  color: $white !important
+.titulo-segundo:after
+  border-left: solid 50px $color-primario
+
+.back-gris
+  background-color: #F6F6F6
+.tarjeta-verde
+  background-color: #e2f3d2    
+.cajon.color-primario
+  background-color: #e1f3d1  
+.back-primario
+  background-color: #8AD24A
+.back-verde-suave  
+  background-color: #e1efae    
+
+.lista-circulo i
+  font-size: 10px
+  padding-top: 2px
+.lista-check i  
+  font-size: 13px
+  padding-top: 2px
+.lista-atom i
+  font-size: 13px
+  padding-top: 2px
+.lista-ol--cuadro__vineta
+  min-width: 21px
+  height: 21px
+  font-weight: 600
+.lista-ul--color.lista-azul li > i:first-of-type
+  color: #3CA8F4
+
+.bloque-texto-a.color-secundario.bloque-color
+  background-color: #3CA8F4
+.bloque-texto-a.color-secundario.bloque-color:before   
+  background-color: #E8E8E8
+
+figcaption
+  font-weight: 500
+
+.pasos-a__linea__esquina__linea
+  border-radius: 0px
+.pasos-a__circle 
+  width: 65px
+  height: 65px
+  min-width: 65px
+
+.tabla-a th 
+  background-color: #0F2771
+.columna-gris
+  font-weight: 600  
+  background-color: #F6F6F6
+td, th
+  border: 1px solid #8AD24A
+
+.modal
+  margin: 0 auto
+  display: block
+  width: 130px
+
+
+
+// IMG HOVER NUMEROS -----------------------------------
+
+.content
+  position: relative
+  margin: auto
+  height: 233px
+
+.content .content-overlay
+  border-radius: 10px
+  background: rgba(138, 210, 74, 0.9)
+  position: absolute
+  left: 0
+  top: 0
+  bottom: 10%
+  right: 0
+  opacity: 0
+  -webkit-transition: all 0.4s ease-in-out 0s
+  -moz-transition: all 0.4s ease-in-out 0s
+  transition: all 0.4s ease-in-out 0s
+
+.content:hover .content-overlay
+  opacity: 1
+.content:hover .btn-numero h3
+  color: #00104E !important
+  background-color: #8AD24A
+  border: 8px solid #FDE947
+  -webkit-transition: all 0.3s ease-in-out 0s
+  -moz-transition: all 0.3s ease-in-out 0s
+  transition: all 0.3s ease-in-out 0s
+
+.content img
+  z-index: 0
+  object-fit: cover
+  object-position: center center
+  height: 90%
+  border-radius: 10px
+
+.tarjeta-details
+  position: absolute
+  text-align: center
+  padding-left: 1em
+  padding-right: 1em
+  width: 90%
+  top: 50%
+  left: 50%
+  opacity: 0
+  -webkit-transform: translate(-50%, -50%)
+  -moz-transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%)
+  -webkit-transition: all 0.3s ease-in-out 0s
+  -moz-transition: all 0.3s ease-in-out 0s
+  transition: all 0.3s ease-in-out 0s
+
+.tarjeta-details p
+  line-height: 1.3
+
+.content:hover .tarjeta-details
+  top: 49%
+  opacity: 1
+
+.fadeIn-top
+  top: 20%
+
+.btn-numero h3
+  font-size: 25px
+  left: 41%
+  top: -15%
+  position: absolute
+  background-color: #FFF5A2
+  border-radius: 50%
+  width: 70px
+  height: 70px
+  text-align: center
+  display: flex
+  flex-direction: column
+  justify-content: center
+  border: 8px solid #8AD24A
+  z-index: 9999
+  -webkit-transition: all 0.3s ease-in-out 0s
+  -moz-transition: all 0.3s ease-in-out 0s
+  transition: all 0.3s ease-in-out 0s
+.btn-numero h3:hover
+  color: #00104E !important
+  background-color: #8AD24A
+  border: 8px solid #FDE947
+  -webkit-transition: all 0.3s ease-in-out 0s
+  -moz-transition: all 0.3s ease-in-out 0s
+  transition: all 0.3s ease-in-out 0s
+
+@media screen and (max-width: 640px)
+  .content:hover .tarjeta-details
+    top: 40%;
+  .btn-numero h3
+    left: 41% !important
+  .tarjeta-details 
+    width: 95% !important 
+  .content:hover .tarjeta-details
+    top: 49%  
