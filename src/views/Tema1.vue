@@ -295,8 +295,34 @@
                 | Identificar por qué el producto está perdiendo popularidad y qué se debe cambiar para recuperar a sus espectadores.
     
     p.mb-4(data-aos="fade") Dentro de los grupos focales es importante considerar la forma en que se puede organizar y para ello, podrá conocerlo a través del siguiente recurso: 
+    
+    .row.justify-content-center.tarjeta.tarjeta--gris.py-5
+      .col-lg-11
+          h3.text-center ¿Cómo se organiza un grupo focal? 
+          LineaTiempoC.color-secundario(:datos="datosLineaTiempoC")
 
-    .tarjeta--container.row.mb-4
+
+    Separador
+
+
+    // 1.4
+    #t_1_4.titulo-segundo(data-aos="fade-right")
+      .h2 1.4.  Entrevistas
+
+    p.mb-4(data-aos="fade") La entrevista es una técnica de recolección de información muy efectiva en la investigación cualitativa. Se define como una conversación que ofrece un propósito específico, además de hablar es una herramienta técnica que toma la forma de un diálogo conversacional.  
+
+    .row.justify-content-center.mb-5(data-aos="fade-down")
+      .col-lg-9
+        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/tema1-4-imagen.jpg')})`}"
+          )
+          .bloque-texto-g__texto.p-4.py-lg-5
+            h5.mb-0 La entrevista puede realizarse de manera presencial o por teléfono, se necesita de un encuestador y un informante; es necesario conocer la información del informante para poder orientar la conversación a los temas a tratar.
+
+    p.mb-4(data-aos="fade") A continuación, se relacionan los tipos de entrevista:
+
+    .tarjeta--container.row.mb-5
       .col-md.tarjeta.color-acento-contenido.p-5
         .row.justify-content-center.mb-4
           .col-12
@@ -322,26 +348,6 @@
         p.text-center El entrevistador está en la libertad de realizar preguntas relacionadas a una guía con temas en específico. Se tratan varios tipos de preguntas que son generales, ejemplares, estructuradas, estructurales y contrastadas. 
 
 
-    Separador
-
-
-    // 1.4
-    #t_1_4.titulo-segundo(data-aos="fade-right")
-      .h2 1.4.  Entrevistas
-
-    p.mb-4(data-aos="fade") La entrevista es una técnica de recolección de información muy efectiva en la investigación cualitativa. Se define como una conversación que ofrece un propósito específico, además de hablar es una herramienta técnica que toma la forma de un diálogo conversacional.  
-
-    .row.justify-content-center.mb-4(data-aos="fade-down")
-      .col-lg-9
-        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
-          .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/tema1-4-imagen.jpg')})`}"
-          )
-          .bloque-texto-g__texto.p-4.py-lg-5
-            h5.mb-0 La entrevista puede realizarse de manera presencial o por teléfono, se necesita de un encuestador y un informante; es necesario conocer la información del informante para poder orientar la conversación a los temas a tratar.
-
-    p.mb-4(data-aos="fade") A continuación, se relacionan los tipos de entrevista:
-
     .row
       .col-lg-7(data-aos="fade-right")
         p Las entrevistas tienen diversas ventajas que posibilitan se trabaje en beneficio de los objetivos propuestos, entre ellas que se pueden utilizar en un amplio campo de aplicación donde se determinen hechos no observables como los fundamentos, puntos de vista, significados, sugerencias, opiniones, valoraciones y sensaciones; así mismo, que no hay límite de espacio y tiempo, por lo que es posible por situaciones del pasado o futuro; que tiene un tema central donde se puede orientar hacia un objetivo determinado o centrarse en un tema específico; y tiene un punto de vista propio y ajeno en el cual se obtiene información tanto propia (opiniones, motivos, etc.), como de observaciones realizadas que se refieren a una persona o suceso.
@@ -356,11 +362,52 @@
 </template>
 
 <script>
+import LineaTiempoC from '../components/LineaTiempoC'
 export default {
   name: 'Tema1',
-  components: {},
+  components: {
+    LineaTiempoC,
+  },
   data: () => ({
     // variables de vue
+    mostrarIndicador: true,
+    datosLineaTiempoC: [
+      {
+        icono: require('@/assets/curso/tema1-linea1.svg'),
+        titulo: 'Define el problema',
+        texto: 'Establecer el problema para el cual se busca la respuesta.',
+      },
+      {
+        icono: require('@/assets/curso/tema1-linea2.svg'),
+        titulo: 'Elige los participantes',
+        texto:
+          'Esta dependerá del objetivo planteado y no deben conocerse entre sí. ',
+      },
+      {
+        icono: require('@/assets/curso/tema1-linea3.svg'),
+        titulo: 'Selecciona moderadores',
+        texto:
+          'El moderador del grupo focal debe despertar y  enfocar a los miembros del equipo, así como también continuar el hilo de discusión para asegurar que todos los que participan estén involucrados activamente.',
+      },
+      {
+        icono: require('@/assets/curso/tema1-linea4.svg'),
+        titulo: 'Planea el diálogo y plantea las reglas',
+        texto:
+          'Se debe explicar a los participantes cómo se desarrollará el grupo focal, poner pausas, tiempo entre discusiones, y anotaciones, para que todos puedan participar.',
+      },
+      {
+        icono: require('@/assets/curso/tema1-linea5.svg'),
+        titulo: 'Modera de forma adecuada',
+        texto:
+          'Crear un clima agradable para que las personas aporten y se sientan cómodas, además de aclararles el objetivo de la investigación, ya que de esta manera podrán saber qué tipo de aporte brindan.',
+      },
+      {
+        icono: require('@/assets/curso/tema1-linea6.svg'),
+        titulo: 'Analiza los resultados',
+        texto:
+          'Esta es una técnica cualitativa, de manera que los resultados se extrapolan a la población total con similitudes a los participantes.',
+      },
+    ],
   }),
   mounted() {
     this.$nextTick(() => {

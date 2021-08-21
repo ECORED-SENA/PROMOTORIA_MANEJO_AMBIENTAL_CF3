@@ -15,8 +15,12 @@
   background-color: #e1f3d1  
 .back-primario
   background-color: #8AD24A
+.back-color-acento-contenido  
+  background-color: #FDE947
 .back-verde-suave  
-  background-color: #e1efae    
+  background-color: #e1efae  
+.back-linea
+  background-color: #daecca    
 
 .lista-circulo i
   font-size: 10px
@@ -62,6 +66,84 @@ td, th
   display: block
   width: 130px
 
+.slyder__btn 
+  background-color: #AFAFAF
+.slyder__btn:hover
+  background-color: #3CA8F4
+a.slyder__btn:active, a.slyder__btn:focus, a.slyder__btn:hover
+  color: $color-sistema-texto
+
+.img-infografica__item
+  width: 1.5%
+.img-infografica__item:hover .img-infografica__item__dot:before, .img-infografica__item:active .img-infografica__item__dot:before
+  background-color: #8AD24A !important
+.img-infografica__item:hover .img-infografica__item__dot:after, .img-infografica__item:active .img-infografica__item__dot:after
+  background-color: #8AD24A !important
+.img-infografica__item__dot:hover::before, .img-infografica__item__dot:hover::after
+  background-color: #8AD24A !important
+
+.bton-modal
+  margin: 0 auto
+  display: table
+
+.dofa-1
+  border-top-left-radius: 20px
+  border-top-right-radius: 20px
+.dofa-2
+  border-bottom-left-radius: 20px
+  border-bottom-right-radius: 20px
+
+.linea-tiempo-d.color-acento-contenido .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background-color: #fef9d0
+.linea-tiempo-d__item--selected .linea-tiempo-d__item__content,.linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title
+  background-color: #fef9d0
+.linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+  background-color: #e1f3d1
+.linea-tiempo-d__item__content__title
+  background-color: #e1f3d1 
+.linea-tiempo-d__item__dots:after
+  border-left: 5px dotted #3CA8F4
+
+.tabla-b td, .tabla-b th
+  border: 1px solid #0F2771
+th.col1-tabla1
+  width: 30%
+td.col-gris  
+  background-color: #F6F6F6
+td.col-blanca
+  background-color: #FFF
+
+.col-cuadro .cuadro1 span
+  background-color: #3CA8F4
+  width: 30px
+  height: 10px
+  margin: 5px
+.col-cuadro .cuadro2 span
+  background-color: #8AD24A
+  width: 30px
+  height: 10px
+  margin: 5px
+.col-cuadro .cuadro3 span
+  background-color: #FDE947 
+  width: 30px
+  height: 10px
+  margin: 5px
+
+td.col-gris2  
+  background-color: #E8E8E8
+  padding: 20px
+td.col-gris2 strong  
+  color: $color-sistema-texto !important
+td.col-verde
+  background-color: #8AD24A
+td.col-verde2
+  background-color:#70BC2D
+td.color-azul
+  background-color: #3CA8F4
+td.color-amarillo  
+  background-color: #FDE947
+th.col1-tabla2
+  width: 35%
 
 
 // IMG HOVER NUMEROS -----------------------------------
@@ -162,3 +244,129 @@ td, th
     width: 95% !important 
   .content:hover .tarjeta-details
     top: 49%  
+
+
+// TARJETA HOVER ------------------
+
+.tarjeta-container
+  position: relative
+  overflow: hidden
+  height: 262px   
+  
+  .tarjetaContent
+    position: relative    
+    top: 0 
+    left: 0      
+    transition: all 0.45s 0s ease;
+    .tarjetaImg, .tarjetaTxt 
+      display: flex
+      flex-direction: column
+      justify-content: center
+      align-items: center          
+      height: 262px
+    .tarjetaImg img
+      width: 100%  
+    .tarjetaTxt      
+      text-align: center
+      background-color: #3CA8F4 
+    .tarjetaTxt h1 
+      font-size: 100px
+  &:hover
+    .tarjetaContent
+      top: -262px
+@media (max-width: $bp-max-md)
+  .tarjeta-container.tarjeta-grande
+    height: 300px 
+  .tarjeta-container.tarjeta-grande .tarjetaContent .tarjetaImg, .tarjeta-container.tarjeta-grande .tarjetaContent .tarjetaTxt
+    height: 300px
+  .tarjeta-container.tarjeta-grande .tarjetaContent:hover    
+    top: -300px       
+
+
+// IMG HOVER -----------------------------------
+
+.img-hover
+  position: relative
+  overflow: hidden
+  cursor: pointer
+
+  &:hover
+    .img-hover__content
+      transform: translateY(0)
+
+  &__content
+    position: absolute
+    inset: 0
+    background: linear-gradient(0deg, rgba(138,210,74,1) 0%, rgba(138,210,74,0.6) 100%)
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#8AD24A",endColorstr="#8AD24A",GradientType=1)
+    display: flex
+    align-items: flex-end
+    transform: translateY(100%)
+    transition: transform .3s ease-in-out
+
+
+// LINEA DE TIEMPO -----------------------------------    
+
+.container-img-linea
+  background-color: white
+  width: 105px
+  height: 105px
+  border-radius: 50%
+  z-index: 9999
+  box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.3)
+
+
+.linea-tiempo-a.color-secundario .linea-tiempo-a__text::before
+  background-color: #daecca
+  z-index: 999
+.linea-tiempo-a::before
+  width: 5px
+  border-radius: 2px
+  background: #0F2771
+.linea-tiempo-a.color-secundario .linea-tiempo-a__row::before
+  background-color: #0f2771
+.linea-tiempo-a__row::before
+  width: 30px
+  height: 30px
+.linea-tiempo-a__row::after
+  width: 20px
+  height: 20px
+  background-color: #3CA8F4 
+  border: 3px solid #FFF
+.linea-tiempo-a__text__container
+  display: none  
+  -webkit-transition: all 0.5s ease-in-out 0s
+  -moz-transition: all 0.5s ease-in-out 0s
+  transition: all 0.5s ease-in-out 0s
+.linea-tiempo-a__row:hover .linea-tiempo-a__icon__container  
+  background-color: #8AD24A
+.linea-tiempo-a__row:hover .linea-tiempo-a__icon__container::before
+  background-color: #8AD24A
+.linea-tiempo-a__row:hover::after
+  background-color: #8AD24A 
+.linea-tiempo-a__row:hover .linea-tiempo-a__text__container
+  display: initial
+  -webkit-transition: all 0.5s ease-in-out 0s
+  -moz-transition: all 0.5s ease-in-out 0s
+  transition: all 0.5s ease-in-out 0s   
+//.linea-tiempo-a__text__container::after
+  //content: ''
+  //display: block
+  //top: 50%
+  //width: 30px
+  //height: 30px
+  //position: absolute
+  //background: #daecca
+  //left: 39.5%
+  //transform: translate(-35%, -50%) rotate(45deg)
+  //z-index: 0
+//.linea-tiempo-a__row:nth-child(even) .linea-tiempo-a__text__container::after
+  //left: 56.5%
+  //transform: translate(35%, -50%) rotate(45deg)
+  //z-index: 0
+//.linea-tiempo-a__row:hover .linea-tiempo-a__text__container::after
+  //left: 98%
+  //z-index: 0
+//.linea-tiempo-a__row:hover:nth-child(even) .linea-tiempo-a__text__container::after    
+  //left: -7%
+  //z-index: 0

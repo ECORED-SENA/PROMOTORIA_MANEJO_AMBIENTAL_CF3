@@ -67,14 +67,14 @@ export default {
         desarrolloContenidos: true,
       },
       {
-        nombreRuta: 'tema3',
+        nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
         titulo: 'Criterios de comunicación asertiva',
         desarrolloContenidos: true,
       },
       {
-        nombreRuta: 'tema3',
+        nombreRuta: 'tema5',
         icono: 'far fa-file-alt',
         numero: '5',
         titulo: 'Principios de enfoque diferencial',
