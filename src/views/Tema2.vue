@@ -88,6 +88,7 @@
           .back-verde-suave.p-4
             p.mb-0 Facilitan la comprensión de los cambios en los procesos, motivos, comportamientos, entre otros.
         
+    p(data-aos="fade") Por lo expuesto, la estructura de un proyecto abarca los ítems descritos anteriormente y su aplicación va a depender del tipo de estudio que se desarrolle, lo importante al momento de realizarlo es ser claro y conciso con lo que se requiere.
 
 </template>
 

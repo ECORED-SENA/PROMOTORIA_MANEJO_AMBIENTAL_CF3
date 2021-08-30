@@ -354,9 +354,14 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura <br>Regional Santander',
       },
-
       {
-        nombre: ' ',
+        nombre: 'Andres Mauricio Santaella Ochoa',
+        cargo: 'Soporte front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura <br>Regional Santander',
+      },
+      {
+        nombre: 'Veimar Celis Melendez',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura <br>Regional Santander',

@@ -165,7 +165,7 @@
               img.px-lg-3(src='@/assets/curso/tema3-linea3.svg', alt='Separar certezas de incertidumbres')     
           .row(numero="4" titulo="Desarrollar escenarios")
             .col-md-9.mb-4.mb-md-0
-              p Se toman las tendencias mejor respaldadas y contrastadas como “certezas”, separándolas de las “incertidumbres”, mediante un listado.           
+              p Se tomará la incertidumbre alta para crear dos resultados: uno moderadamente bueno y otro moderadamente malo, y se desarrollará un entorno, para cada uno.
             .col-md-2.col-3
               img.px-lg-3(src='@/assets/curso/tema3-linea4.svg', alt='Desarrollar escenarios')    
           .row(numero="5" titulo="Incluir los escenarios")

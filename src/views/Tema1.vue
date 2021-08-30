@@ -87,7 +87,7 @@
       .row
         .col-md-9.mb-4.mb-md-0
           h4 Observación deliberada naturalista
-          p Comprende observaciones planificadas y organizadas que tienen lugar en momentos específicos en momentos específicos.   
+          p Comprende observaciones planificadas y organizadas que tienen lugar en momentos específicos.   
         .col-md-2
           figure
             img.px-3(src='@/assets/curso/tema1-1-icono2.svg', alt='Observación deliberada naturalista')
@@ -343,8 +343,8 @@
         .row.justify-content-center.mb-4
           .col-10
             figure
-              img(src='@/assets/curso/tema1-4-icono3.svg', alt='Entrevistas semiestructuradas') 
-        h4.text-center Entrevistas semiestructuradas
+              img(src='@/assets/curso/tema1-4-icono3.svg', alt='Entrevistas no estructuradas') 
+        h4.text-center Entrevistas no estructuradas
         p.text-center El entrevistador está en la libertad de realizar preguntas relacionadas a una guía con temas en específico. Se tratan varios tipos de preguntas que son generales, ejemplares, estructuradas, estructurales y contrastadas. 
 
 

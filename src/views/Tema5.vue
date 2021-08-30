@@ -44,11 +44,11 @@
                 i.fas.fa-circle
                 p.mb-0
                   strong Participación ciudadana: 
-                  | Es la intervención en cualquier tipo de actividad de forma cognitiva o intuitiva. La participación puede presentarse de manera inmediata, es decir que es emocional, de otro lado, la participación cognitiva es premeditada y procede de un conocimiento. 
+                  | Es el derecho legal de todos los ciudadanos de interferir con el Gobierno y la toma de decisiones del mismo y, de ese modo, promover el desarrollo regional y la democracia.
               li.mb-1
                 i.fas.fa-circle
                 p.mb-0
-                  strong Participación ciudadana: 
+                  strong Participación política: 
                   | Considera todo tipo de actividades cívicas destinadas a interferir en el nombramiento de líderes y/o políticos e influir en ellos en términos de orden público.  
               li.mb-1
                 i.fas.fa-circle
@@ -58,7 +58,7 @@
               li.mb-1
                 i.fas.fa-circle
                 p.mb-0
-                  strong Participación comunitaria:      
+                  strong Participación social:      
                   | Es una acción colectiva para el desarrollo comunitario, la identificación de las necesidades de la comunidad y la educación social. La forma más común de participación comunitaria es la caridad o el voluntariado.
           .row
             .col-md-6.mb-4.mb-md-0
