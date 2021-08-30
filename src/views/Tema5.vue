@@ -44,22 +44,22 @@
                 i.fas.fa-circle
                 p.mb-0
                   strong Participación ciudadana: 
-                  | Es el derecho legal de todos los ciudadanos de interferir con el Gobierno y la toma de decisiones del mismo y, de ese modo, promover el desarrollo regional y la democracia.
+                  | es el derecho legal de todos los ciudadanos de interferir con el Gobierno y la toma de decisiones del mismo y, de ese modo, promover el desarrollo regional y la democracia.
               li.mb-1
                 i.fas.fa-circle
                 p.mb-0
                   strong Participación política: 
-                  | Considera todo tipo de actividades cívicas destinadas a interferir en el nombramiento de líderes y/o políticos e influir en ellos en términos de orden público.  
+                  | considera todo tipo de actividades cívicas destinadas a interferir en el nombramiento de líderes y/o políticos e influir en ellos en términos de orden público.  
               li.mb-1
                 i.fas.fa-circle
                 p.mb-0
                   strong Participación comunitaria: 
-                  | Incluye todo tipo de actividades sociales, tanto dentro como fuera de la comunidad de ciudadanos y tiene como objetivo principal, proteger y defender los intereses sociales y crear conciencia social.
+                  | incluye todo tipo de actividades sociales, tanto dentro como fuera de la comunidad de ciudadanos y tiene como objetivo principal, proteger y defender los intereses sociales y crear conciencia social.
               li.mb-1
                 i.fas.fa-circle
                 p.mb-0
                   strong Participación social:      
-                  | Es una acción colectiva para el desarrollo comunitario, la identificación de las necesidades de la comunidad y la educación social. La forma más común de participación comunitaria es la caridad o el voluntariado.
+                  | es una acción colectiva para el desarrollo comunitario, la identificación de las necesidades de la comunidad y la educación social. La forma más común de participación comunitaria es la caridad o el voluntariado.
           .row
             .col-md-6.mb-4.mb-md-0
               h4 Interculturalidad 
