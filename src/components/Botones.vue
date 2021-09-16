@@ -15,15 +15,15 @@
           )
             .indicador--click(v-if="index === 1 && indicador")
     .col-md-7.col-lg-5
-      .tarjeta.tarjeta-verde.p-3(v-if="selected === 0")
+      .tarjeta.back-secundario.p-3(v-if="selected === 0")
         h3 Paraverbal
         p.mb-0 Los elementos lingüísticos y no verbales adicionales para formar y comunicar el mensaje. La voz, el ritmo, la pronunciación y la postura son parte de esta línea de declaración.
 
-      .tarjeta.tarjeta-verde.p-3(v-else-if="selected === 1")
+      .tarjeta.back-secundario.p-3(v-else-if="selected === 1")
         h3 Verbal
         p.mb-0 Este tipo de comunicación implica elegir la palabra adecuada y los individuos necesitan pensar y componer oraciones correctamente. Para ello, se deben tener en cuenta los principios de claridad y espontaneidad sin caer en la agresión.
 
-      .tarjeta.tarjeta-verde.p-3(v-else-if="selected === 2")
+      .tarjeta.back-secundario.p-3(v-else-if="selected === 2")
         h3 No verbal
         p.mb-0 El cuerpo juega un papel importante en la autoafirmación en la comunicación. Los factores no verbales incluyen la postura corporal, esto no afecta el acto de hablar pero puede mostrar interés en el acto de comunicarse.
 
