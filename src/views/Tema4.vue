@@ -35,7 +35,7 @@
           )
           .bloque-texto-g__texto.p-4.py-lg-4
             p Dentro de las características de la comunicación asertiva, se encuentra: 
-            ul.lista-ul--color.lista-circulo.lista-azul
+            ul.lista-ul--color.lista-circulo.lista-verde
               li.mb-0
                 i.fas.fa-circle
                 | Opiniones.
@@ -67,31 +67,31 @@
             figure
               img(src='@/assets/curso/tema4-imagen-infografica.svg', alt='Texto que describa la imagen')
 
-          .tarjeta.color-primario.text-center.p-3(x="50.3%" y="30.35%")
+          .tarjeta.color-secundario.text-center.p-3(x="50.3%" y="30.35%")
             .h4.mb-2 Clara
             p Sin generar imprecisiones. 
 
-          .tarjeta.color-primario.text-center.p-3(x="66.67%" y="38.15%")
+          .tarjeta.color-secundario.text-center.p-3(x="66.67%" y="38.15%")
             .h4.mb-2 Conciso
             p No extenderse  más de lo necesario.  
 
-          .tarjeta.color-primario.text-center.p-3(x="71.7%" y="56.15%")
+          .tarjeta.color-secundario.text-center.p-3(x="71.7%" y="56.15%")
             .h4.mb-2 Concreto
             p El mensaje debe ser definido para que no queden dudas.
 
-          .tarjeta.color-primario.text-center.p-3(x="60.3%" y="71.8%")
+          .tarjeta.color-secundario.text-center.p-3(x="60.3%" y="71.8%")
             .h4.mb-2 Correcto
             p Un mensaje sin equivocaciones. 
 
-          .tarjeta.color-primario.text-center.p-3(x="40.7%" y="71.8%")
+          .tarjeta.color-secundario.text-center.p-3(x="40.7%" y="71.8%")
             .h4.mb-2 Coherente
             p Un mensaje natural y razonable. 
 
-          .tarjeta.color-primario.text-center.p-3(x="29.1%" y="56.2%")
+          .tarjeta.color-secundario.text-center.p-3(x="29.1%" y="56.2%")
             .h4.mb-2 Completo
             p Que permita la toma de decisiones. 
 
-          .tarjeta.color-primario.text-center.p-3(x="34%" y="38.15%")
+          .tarjeta.color-secundario.text-center.p-3(x="34%" y="38.15%")
             .h4.mb-2 Cortés
             p El mensaje debe demostrar respeto y agradecimiento para reforzar las relaciones.        
 

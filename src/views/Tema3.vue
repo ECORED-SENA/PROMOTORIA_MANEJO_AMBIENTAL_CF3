@@ -14,39 +14,39 @@
     p.mb-4(data-aos="fade") Los instrumentos para definir un diagnóstico se utilizan con el fin de obtener información pertinente y que posibilite hacer un análisis de las situaciones de estudio y con ello, hacer una formulación de las actividades y programas necesarios, así como determinar las áreas en las cuales es necesario actuar y mejorar la información. Algunos de los métodos de diagnóstico son: 
     
     .tarjeta--container.row.mb-4
-      .col-md.tarjeta.color-primario.p-5
+      .col-md.tarjeta.color-primario.p-5.text-sistema
         .row.justify-content-center.text-center.mb-4
           .col-6
             figure.mb-3
               img(src='@/assets/curso/tema3-icono1.svg', alt='Método DOFA') 
-        h4.text-center.mb-4 Método 
+        h4.text-center.text-sistema.mb-4 Método 
           br
           | DOFA
-        a.boton.color-acento-botones.indicador__container.bton-modal.text-center(@click="modal1 = true")
-          span.text-white Abrir modal
+        a.boton.color-acento-contenido.indicador__container.bton-modal.text-center(@click="modal1 = true")
+          span.text-sistema Abrir modal
           .indicador--click(v-if="mostrarIndicador")
 
-      .col-md.tarjeta.color-acento-contenido.p-5
+      .col-md.tarjeta.color-secundario.p-5.text-sistema
         .row.justify-content-center.mb-4
           .col-6
             figure.mb-3
               img(src='@/assets/curso/tema3-icono2.svg', alt='Análisis de escenarios')       
-        h4.text-center.mb-4 Análisis 
+        h4.text-center.text-sistema.mb-4 Análisis 
           br
           | de escenarios
-        a.boton.color-acento-botones.bton-modal.text-center(@click="modal2 = true")
-          span.text-white Abrir modal
+        a.boton.color-acento-contenido.bton-modal.text-center(@click="modal2 = true")
+          span.text-sistema Abrir modal
 
-      .col-md.tarjeta.color-primario.p-5
+      .col-md.tarjeta.color-primario.p-5.text-sistema
         .row.justify-content-center.mb-4
           .col-6
             figure.mb-3
               img(src='@/assets/curso/tema3-icono3.svg', alt='árbol de problemas') 
-        h4.text-center.mb-4 Matriz causa-efecto 
+        h4.text-center.text-sistema.mb-4 Matriz causa-efecto 
           br 
           | (árbol de problemas)
-        a.boton.color-acento-botones.bton-modal.text-center(@click="modal3 = true")
-          span.text-white Abrir modal
+        a.boton.color-acento-contenido.bton-modal.text-center(@click="modal3 = true")
+          span.text-sistema Abrir modal
           
 
     ModalA(:abrir-modal.sync="modal1")
@@ -110,7 +110,7 @@
       .col-lg-2
     .row.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-2
-      .col-lg-9.back-color-acento-contenido.dofa-2
+      .col-lg-9.back-secundario.dofa-2
         .row.align-items-center.p-3
           .col-lg-5
             .tarjeta-container
@@ -222,7 +222,7 @@
     h4.mb-4(data-aos="fade-right") Nomenclatura matriz causa – efecto
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-10
-        .tabla-b.color-acento-botones
+        .tabla-b.color-primario
           table  
             thead.tabla-b__header
               tr
@@ -292,17 +292,17 @@
     
     h4.mb-4(data-aos="fade-right") Reuso del agua ejemplo práctico: fábrica de conservas
 
-    .tabla-b.color-acento-botones.mb-4
+    .tabla-b.color-acento-botones.tabla-cuadros.mb-4
       table  
         thead.tabla-b__header
           tr
             th.col1-tabla2(rowspan='2')
               h3.mb-0 Actividades 
-            th(colspan='3') 
+            th.col-azul-dif(colspan='3') 
               h3.mb-0 Factores físicos
-            th(colspan='2')  
+            th.col-azul-dif(colspan='2')  
               h3.mb-0 Factores biológicos
-            th(colspan='2')  
+            th.col-azul-dif(colspan='2')  
               h3.mb-0 Factores preceptuales 
           tr
             td.col-gris2

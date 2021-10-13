@@ -13,7 +13,7 @@
 
     .row.justify-content-center.mb-4(data-aos="fade-down")
       .col-lg-10
-        .bloque-texto-a.color-secundario.bloque-color.p-4 
+        .bloque-texto-a.color-secundario-gris.bloque-color.p-4 
           .row.m-0.align-items-center.justify-content-between
             .col-lg-8.mb-4.mb-lg-0
               .bloque-texto-a__texto.p-4
@@ -197,7 +197,7 @@
         strong Tabla 1.  
         | Tipos de cuestionarios, ventajas y desventajas
 
-    .tabla-a.color-primario.mb-5(data-aos="fade-down")
+    .tabla-a.color-acento-contenido.mb-5(data-aos="fade-down")
       table
         thead
           tr
@@ -226,7 +226,7 @@
     .row
       .col-lg-7(data-aos="fade-right")
         p Anguita, Repullo y Donado (2003), afirman, a través de un estudio de encuesta y elaboración de cuestionario, que en la planificación de una investigación que esta primera se puede establecer a partir de las siguientes etapas:
-        ul.lista-ul--color.lista-atom.px-lg-4
+        ul.lista-ul--color.lista-atom.lista-azul.px-lg-4
           li.mb-0
             i.fas.fa-atom
             | Identificación del problema.
@@ -275,11 +275,11 @@
             |  Grupos focales
         figure
           img.mb-2(src='@/assets/curso/tema1-3-imagen.jpg', alt='Grupos focales')
-          figcaption Nota. Tomada de https://conceptodefinicion.de/grupos-focales/     
+          figcaption.amarillo Nota. Tomada de https://conceptodefinicion.de/grupos-focales/     
 
     .row.justify-content-center.mb-4(data-aos="fade-down")
       .col-lg-10
-        .row.cajon.color-acento-contenido.align-items-center.p-4.px-lg-5.py-lg-4.mb-4
+        .row.cajon.color-primario.align-items-center.p-4.px-lg-5.py-lg-4.mb-4
           .col-lg-4
             .h5 Los grupos focales tienen grandes ventajas, dentro de las cuales se encuentran: 
           .col-lg-8  
@@ -299,7 +299,7 @@
     .row.justify-content-center.tarjeta.tarjeta--gris.py-5
       .col-lg-11
           h3.text-center ¿Cómo se organiza un grupo focal? 
-          LineaTiempoC.color-secundario(:datos="datosLineaTiempoC")
+          LineaTiempoC.color-acento-botones(:datos="datosLineaTiempoC")
 
 
     Separador
@@ -323,7 +323,7 @@
     p.mb-4(data-aos="fade") A continuación, se relacionan los tipos de entrevista:
 
     .tarjeta--container.row.mb-5
-      .col-md.tarjeta.color-acento-contenido.p-5
+      .col-md.tarjeta.color-secundario.p-5
         .row.justify-content-center.mb-4
           .col-12
             figure
@@ -339,7 +339,7 @@
         h4.text-center Entrevistas semiestructuradas
         p.text-center El entrevistador es libre de hacer preguntas adicionales a las establecidas.
 
-      .col-md.tarjeta.color-acento-contenido.p-5
+      .col-md.tarjeta.color-secundario.p-5
         .row.justify-content-center.mb-4
           .col-10
             figure

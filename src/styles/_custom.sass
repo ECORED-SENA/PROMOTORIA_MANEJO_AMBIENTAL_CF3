@@ -1,26 +1,30 @@
-.titulo-principal__numero 
-  background-color: $color-acento-botones
 .barra-avance__boton--regresar i
   color: $color-sistema-texto
-.boton.barra-avance__boton--regresar:active span,  .boton.barra-avance__boton--regresar:focus span,  .boton.barra-avance__boton--regresar:hover span
-  color: $white !important
-.titulo-segundo:after
-  border-left: solid 50px $color-primario
+.titulo-principal__numero span
+  color: $color-sistema-texto
 
 .back-gris
   background-color: #F6F6F6
 .tarjeta-verde
-  background-color: #e2f3d2    
+  background-color: #caece6    
 .cajon.color-primario
-  background-color: #e1f3d1  
+  background-color: #c9ebe6  
 .back-primario
-  background-color: #8AD24A
+  background-color: #29B39D
+.back-secundario
+  background-color: #7AE582  
 .back-color-acento-contenido  
-  background-color: #FDE947
+  background-color: #FFBB00
 .back-verde-suave  
   background-color: #e1efae  
 .back-linea
-  background-color: #daecca    
+  background-color: #7AE582    
+.text-sistema
+  color: $color-sistema-texto
+.tarjeta.color-primario *
+  color: $color-sistema-texto 
+.boton.color-acento-contenido *  
+  color: $color-sistema-texto  
 
 .lista-circulo i
   font-size: 10px
@@ -37,14 +41,26 @@
   font-weight: 600
 .lista-ul--color.lista-azul li > i:first-of-type
   color: #3CA8F4
+.lista-ul--color.lista-verde li > i:first-of-type
+  color: #7AE582
 
-.bloque-texto-a.color-secundario.bloque-color
-  background-color: #3CA8F4
-.bloque-texto-a.color-secundario.bloque-color:before   
-  background-color: #E8E8E8
+.bloque-texto-a.color-secundario-gris
+  background-color: #7AE582
+.bloque-texto-a.color-secundario-gris:before
+  background-color: #e1e7e1
+.bloque-texto-a.color-gris-secundario
+  background-color: #e1e7e1
+.bloque-texto-a.color-gris-secundario:before
+  background-color: #7AE582
+.bloque-texto-a.color-gris-primario
+  background-color: #e1e7e1
+.bloque-texto-a.color-gris-primario:before
+  background-color: #29B39D
 
 figcaption
   font-weight: 500
+figcaption.amarillo
+  background-color: #FFDA73  
 
 .pasos-a__linea__esquina__linea
   border-radius: 0px
@@ -52,14 +68,16 @@ figcaption
   width: 65px
   height: 65px
   min-width: 65px
+.pasos-a.color-acento-contenido .pasos-a__circle div
+  color: $color-sistema-texto
 
 .tabla-a th 
-  background-color: #0F2771
+  background-color: #29B39D
 .columna-gris
   font-weight: 600  
   background-color: #F6F6F6
 td, th
-  border: 1px solid #8AD24A
+  border: 1px solid #29B39D
 
 .modal
   margin: 0 auto
@@ -69,7 +87,7 @@ td, th
 .slyder__btn 
   background-color: #AFAFAF
 .slyder__btn:hover
-  background-color: #3CA8F4
+  background-color: #FFBB00
 a.slyder__btn:active, a.slyder__btn:focus, a.slyder__btn:hover
   color: $color-sistema-texto
 
@@ -94,18 +112,20 @@ a.slyder__btn:active, a.slyder__btn:focus, a.slyder__btn:hover
   border-bottom-right-radius: 20px
 
 .linea-tiempo-d.color-acento-contenido .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
-  background-color: #fef9d0
+  background-color: #ffedbf
 .linea-tiempo-d__item--selected .linea-tiempo-d__item__content,.linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title
-  background-color: #fef9d0
+  background-color: #ffedbf
 .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
-  background-color: #e1f3d1
+  background-color: #caece6
 .linea-tiempo-d__item__content__title
-  background-color: #e1f3d1 
+  background-color: #caece6 
 .linea-tiempo-d__item__dots:after
-  border-left: 5px dotted #3CA8F4
+  border-left: 5px dotted #7AE582
+.linea-tiempo-d.color-acento-contenido .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  color: $color-sistema-texto  
 
 .tabla-b td, .tabla-b th
-  border: 1px solid #0F2771
+  border: 1px solid #29B39D
 th.col1-tabla1
   width: 30%
 td.col-gris  
@@ -114,17 +134,17 @@ td.col-blanca
   background-color: #FFF
 
 .col-cuadro .cuadro1 span
-  background-color: #3CA8F4
+  background-color: #7AE582
   width: 30px
   height: 10px
   margin: 5px
 .col-cuadro .cuadro2 span
-  background-color: #8AD24A
+  background-color: #29B39D
   width: 30px
   height: 10px
   margin: 5px
 .col-cuadro .cuadro3 span
-  background-color: #FDE947 
+  background-color: #FFBB00 
   width: 30px
   height: 10px
   margin: 5px
@@ -135,19 +155,26 @@ td.col-gris2
 td.col-gris2 strong  
   color: $color-sistema-texto !important
 td.col-verde
-  background-color: #8AD24A
+  background-color: #29B39D
 td.col-verde2
-  background-color:#70BC2D
+  background-color: #29B39D
 td.color-azul
-  background-color: #3CA8F4
+  background-color: #7AE582
 td.color-amarillo  
-  background-color: #FDE947
+  background-color: #FFBB00
 th.col1-tabla2
   width: 35%
+  background-color: #3CA8F4
+th.col1-tabla2 h3, .col-azul-dif h3 
+  color: #FFF !important
+.col-azul-dif
+  background-color: #266999
+.tabla-cuadros.tabla-b td, .tabla-cuadros.tabla-b th
+  border: 1px solid #266999
+
 
 
 // IMG HOVER NUMEROS -----------------------------------
-
 .content
   position: relative
   margin: auto
@@ -155,7 +182,7 @@ th.col1-tabla2
 
 .content .content-overlay
   border-radius: 10px
-  background: rgba(138, 210, 74, 0.9)
+  background: rgba(122, 229, 130, 0.9)
   position: absolute
   left: 0
   top: 0
@@ -170,8 +197,8 @@ th.col1-tabla2
   opacity: 1
 .content:hover .btn-numero h3
   color: #00104E !important
-  background-color: #8AD24A
-  border: 8px solid #FDE947
+  background-color: #FFBB00
+  border: 8px solid #29B39D
   -webkit-transition: all 0.3s ease-in-out 0s
   -moz-transition: all 0.3s ease-in-out 0s
   transition: all 0.3s ease-in-out 0s
@@ -214,7 +241,7 @@ th.col1-tabla2
   left: 41%
   top: -15%
   position: absolute
-  background-color: #FFF5A2
+  background-color: #7AE582
   border-radius: 50%
   width: 70px
   height: 70px
@@ -222,15 +249,15 @@ th.col1-tabla2
   display: flex
   flex-direction: column
   justify-content: center
-  border: 8px solid #8AD24A
+  border: 8px solid #29B39D
   z-index: 9999
   -webkit-transition: all 0.3s ease-in-out 0s
   -moz-transition: all 0.3s ease-in-out 0s
   transition: all 0.3s ease-in-out 0s
 .btn-numero h3:hover
   color: #00104E !important
-  background-color: #8AD24A
-  border: 8px solid #FDE947
+  background-color: #FFBB00
+  border: 8px solid #29B39D
   -webkit-transition: all 0.3s ease-in-out 0s
   -moz-transition: all 0.3s ease-in-out 0s
   transition: all 0.3s ease-in-out 0s
@@ -261,19 +288,20 @@ th.col1-tabla2
     .tarjetaImg, .tarjetaTxt 
       display: flex
       flex-direction: column
-      justify-content: center
+      justify-content: flex-start
       align-items: center          
-      height: 262px
+      height: 300px
     .tarjetaImg img
       width: 100%  
     .tarjetaTxt      
       text-align: center
-      background-color: #3CA8F4 
+      background-color: #FFBB00 
+      opacity: 0.9
     .tarjetaTxt h1 
       font-size: 100px
   &:hover
     .tarjetaContent
-      top: -262px
+      top: -300px
 @media (max-width: $bp-max-md)
   .tarjeta-container.tarjeta-grande
     height: 300px 
@@ -297,8 +325,8 @@ th.col1-tabla2
   &__content
     position: absolute
     inset: 0
-    background: linear-gradient(0deg, rgba(138,210,74,1) 0%, rgba(138,210,74,0.6) 100%)
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#8AD24A",endColorstr="#8AD24A",GradientType=1)
+    background: linear-gradient(0deg, rgba(122,229,130,1) 0%, rgba(122,229,130,0.6) 100%)
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7AE582",endColorstr="#7AE582",GradientType=1)
     display: flex
     align-items: flex-end
     transform: translateY(100%)
@@ -317,14 +345,14 @@ th.col1-tabla2
 
 
 .linea-tiempo-a.color-secundario .linea-tiempo-a__text::before
-  background-color: #daecca
+  background-color: #7AE582
   z-index: 999
 .linea-tiempo-a::before
   width: 5px
   border-radius: 2px
-  background: #0F2771
+  background: #266999
 .linea-tiempo-a.color-secundario .linea-tiempo-a__row::before
-  background-color: #0f2771
+  background-color: #266999
 .linea-tiempo-a__row::before
   width: 30px
   height: 30px
@@ -339,34 +367,15 @@ th.col1-tabla2
   -moz-transition: all 0.5s ease-in-out 0s
   transition: all 0.5s ease-in-out 0s
 .linea-tiempo-a__row:hover .linea-tiempo-a__icon__container  
-  background-color: #8AD24A
+  background-color: #7AE582
 .linea-tiempo-a__row:hover .linea-tiempo-a__icon__container::before
-  background-color: #8AD24A
+  background-color: #7AE582
 .linea-tiempo-a__row:hover::after
-  background-color: #8AD24A 
+  background-color: #7AE582 
 .linea-tiempo-a__row:hover .linea-tiempo-a__text__container
   display: initial
   -webkit-transition: all 0.5s ease-in-out 0s
   -moz-transition: all 0.5s ease-in-out 0s
   transition: all 0.5s ease-in-out 0s   
-//.linea-tiempo-a__text__container::after
-  //content: ''
-  //display: block
-  //top: 50%
-  //width: 30px
-  //height: 30px
-  //position: absolute
-  //background: #daecca
-  //left: 39.5%
-  //transform: translate(-35%, -50%) rotate(45deg)
-  //z-index: 0
-//.linea-tiempo-a__row:nth-child(even) .linea-tiempo-a__text__container::after
-  //left: 56.5%
-  //transform: translate(35%, -50%) rotate(45deg)
-  //z-index: 0
-//.linea-tiempo-a__row:hover .linea-tiempo-a__text__container::after
-  //left: 98%
-  //z-index: 0
-//.linea-tiempo-a__row:hover:nth-child(even) .linea-tiempo-a__text__container::after    
-  //left: -7%
-  //z-index: 0
+.linea-tiempo-a.color-acento-botones .linea-tiempo-a__row::before
+  background-color: #266999
