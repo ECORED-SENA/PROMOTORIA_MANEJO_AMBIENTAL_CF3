@@ -151,32 +151,32 @@
           .row(numero="1" titulo="Definir el problema")
             .col-md-9.mb-4.mb-md-0
               p Se define qué se espera conseguir y en cuanto tiempo se llevará a cabo.          
-            .col-md-2.col-3
+            .col-md-2.col-4
               img.px-lg-3(src='@/assets/curso/tema3-linea1.svg', alt='Definir el problema')
           .row(numero="2" titulo="Recopilar datos")
             .col-md-9.mb-4.mb-md-0
               p Se identifican todos los factores principales y tendencias que pueden interferir en el plan.          
-            .col-md-2.col-3
+            .col-md-2.col-4
               img.px-lg-4(src='@/assets/curso/tema3-linea2.svg', alt='Recopilar datos')
           .row(numero="3" titulo="Separar certezas de incertidumbres")
             .col-md-9.mb-4.mb-md-0
               p Se toman las tendencias mejor respaldadas y contrastadas como “certezas”, separándolas de las “incertidumbres”, mediante un listado.          
-            .col-md-2.col-3
+            .col-md-2.col-4
               img.px-lg-3(src='@/assets/curso/tema3-linea3.svg', alt='Separar certezas de incertidumbres')     
           .row(numero="4" titulo="Desarrollar escenarios")
             .col-md-9.mb-4.mb-md-0
               p Se tomará la incertidumbre alta para crear dos resultados: uno moderadamente bueno y otro moderadamente malo, y se desarrollará un entorno, para cada uno.
-            .col-md-2.col-3
+            .col-md-2.col-4
               img.px-lg-3(src='@/assets/curso/tema3-linea4.svg', alt='Desarrollar escenarios')    
           .row(numero="5" titulo="Incluir los escenarios")
             .col-md-9.mb-4.mb-md-0
               p En la planificación estratégica de la empresa.          
-            .col-md-2.col-3
+            .col-md-2.col-4
               img.px-lg-4(src='@/assets/curso/tema3-linea5.svg', alt='Incluir los escenarios')    
           .row(numero="6" titulo="Involucrar a los líderes y directivos")
             .col-md-9.mb-4.mb-md-0
               p El proceso de definición de escenarios ha de ser cooperativo.          
-            .col-md-2
+            .col-md-2.col-4
               img.px-lg-3(src='@/assets/curso/tema3-linea6.svg', alt='Involucrar a los líderes y directivos')                   
 
     h3(data-aos="fade-right") Matriz causa-efecto

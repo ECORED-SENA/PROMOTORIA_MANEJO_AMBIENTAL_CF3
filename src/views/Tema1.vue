@@ -78,7 +78,7 @@
     PasosA.color-acento-contenido.mb-4(tipo="n")(data-aos="fade-down")
       .row
         .col-md-1
-        .col-md-2.mb-4.mb-md-0
+        .col-md-2.col-7.mb-4.mb-md-0
           figure
             img.px-3(src='@/assets/curso/tema1-1-icono1.svg', alt='Observación casual')
         .col-md-9
@@ -88,13 +88,13 @@
         .col-md-9.mb-4.mb-md-0
           h4 Observación deliberada naturalista
           p Comprende observaciones planificadas y organizadas que tienen lugar en momentos específicos.   
-        .col-md-2
+        .col-md-2.col-7
           figure
             img.px-3(src='@/assets/curso/tema1-1-icono2.svg', alt='Observación deliberada naturalista')
         .col-md-1
       .row
         .col-md-1
-        .col-md-2.mb-4.mb-md-0
+        .col-md-2.col-7.mb-4.mb-md-0
           figure
             img.px-3(src='@/assets/curso/tema1-1-icono3.svg', alt='Observación focalizada')
         .col-md-9
@@ -104,13 +104,13 @@
         .col-md-9.mb-4.mb-md-0
           h4 Observación participativa
           p Es aquella en la que no solo se observa pasivamente, sino que hay una interacción que ayuda a comprender otros aspectos.
-        .col-md-2
+        .col-md-2.col-7
           figure
             img.px-3(src='@/assets/curso/tema1-1-icono4.svg', alt='Observación participativa')
         .col-md-1  
       .row
         .col-md-1
-        .col-md-2.mb-4.mb-md-0
+        .col-md-2.col-7.mb-4.mb-md-0
           figure
             img.px-3(src='@/assets/curso/tema1-1-icono5.svg', alt='Observación no participativa')
         .col-md-9
@@ -120,13 +120,13 @@
         .col-md-9.mb-4.mb-md-0
           h4 Observación directa
           p Es cuando el observador individual se expone a la realidad o fenómeno que intenta estudiar.
-        .col-md-2
+        .col-md-2.col-7
           figure
             img.px-3(src='@/assets/curso/tema1-1-icono6.svg', alt='Observación directa')
         .col-md-1
       .row
         .col-md-1
-        .col-md-2.mb-4.mb-md-0
+        .col-md-2.col-7.mb-4.mb-md-0
           figure
             img.px-4(src='@/assets/curso/tema1-1-icono7.svg', alt='Observación indirecta ')
         .col-md-9
@@ -136,13 +136,13 @@
         .col-md-9.mb-4.mb-md-0
           h4 Observación individual 
           p Se realiza de forma individual, por lo que debe hacerse sola.
-        .col-md-2
+        .col-md-2.col-8
           figure
             img.px-4(src='@/assets/curso/tema1-1-icono8.svg', alt='Observación')
         .col-md-1
       .row
         .col-md-1
-        .col-md-2.mb-4.mb-md-0
+        .col-md-2.col-7.mb-4.mb-md-0
           figure
             img.px-3(src='@/assets/curso/tema1-1-icono9.svg', alt='Observación en equipo o grupo ')
         .col-md-9
@@ -152,13 +152,13 @@
         .col-md-9.mb-4.mb-md-0
           h4 Observación estructurada
           p Se logra construyendo un sistema de guía de observación paso a paso y colocándolo en relación con todo el proceso de investigación en curso.
-        .col-md-2
+        .col-md-2.col-7
           figure
             img.px-3(src='@/assets/curso/tema1-1-icono10.svg', alt='Observación estructurada')
         .col-md-1
       .row
         .col-md-1
-        .col-md-2.mb-4.mb-md-0
+        .col-md-2.col-7.mb-4.mb-md-0
           figure
             img.px-3(src='@/assets/curso/tema1-1-icono11.svg', alt='Observación abierta ')
         .col-md-9
@@ -168,13 +168,13 @@
         .col-md-9.mb-4.mb-md-0
           h4 Observación semiestructurada 
           p Este tipo de observación comienza con instrucciones estructuradas, pero se aplica de manera flexible según el formato de la observación.
-        .col-md-2
+        .col-md-2.col-7
           figure
             img.px-3(src='@/assets/curso/tema1-1-icono12.svg', alt='Observación semiestructurada ')
         .col-md-1
       .row
         .col-md-1
-        .col-md-2.mb-4.mb-md-0
+        .col-md-2.col-7.mb-4.mb-md-0
           figure
             img.px-3(src='@/assets/curso/tema1-1-icono13.svg', alt='Observación participante')
         .col-md-9
