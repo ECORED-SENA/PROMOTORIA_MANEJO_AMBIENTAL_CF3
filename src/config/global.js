@@ -147,7 +147,7 @@ export default {
       referencia:
         'Universidad Nacional de San Juan. (s.f.). Matriz Análisis de Partes Involucradas en el Problema. (causas-efectos). ',
       link:
-        'http://www.fi.unsj.edu.ar/departamentos/DptoCivil/gcuencas/impacto/matriz.pdf',
+        'https://studylib.es/doc/5271569/matriz-an%C3%A1lisis-de-partes-involucradas-en-el-problema',
     },
     {
       referencia:
